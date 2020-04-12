@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.">
   <meta name="author" content="Webpixels">
-  <title>Purpose Website UI Kit - Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</title>
+  <title>Strona.</title>
+
+
   <!-- Favicon -->
   <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
   <!-- Font Awesome 5 -->
@@ -16,27 +18,84 @@
   <link rel="stylesheet" href="assets/css/purpose.css" id="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Tutaj możemy sobie wkleić logo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-black bg-black">
+    <a class="navbar-brand" href="index.html">Tutaj jakieś logo</a>
+    
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="onas.html">O nas <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sklepik</a>
+          <a class="nav-link" href="serwis.html">Serwis</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Inne chujostwo</a>
+          <a class="nav-link" href="usługi.html">Usługi</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wysyłka.html">Wysyłka</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+       <li class="nav-item">
+        <a class="navbar-brand" href="index.html"><img src="photo/fb.png" width="31" height="31"></a>
+          
+        </li>
+        
       </ul>
-      <span class="navbar-text">
-        Danny Cherepak
+      <span class="navbar-brand">
+        <a class="navbar-brand" href="cart.html"><img src="photo/cart.svg" width="31" height="31"></a>
       </span>
     </div>
   </nav>
-  </body>
-  </html>
+  
+
+<main class="content2" role="main">
+  <!-- Projects -->
+<span id="projects"></span>
+      <div class="form-style-2">
+        <div class="testbox">
+          <form action="/">
+            <div class="banner">
+              <img src="photo/hd.jpg" width="850" height="230">
+            </div>
+            <div class="item">
+              <p>Marka/model sprzętu</p>
+              <input type="marka" name="marka"/>
+            </div>
+            <div class="item">
+              <p>Rodzaj usterki</p>
+              <input type="rodzaj" name="rodzaj"/>
+            </div>
+            <select required>
+              <option selected value="" disabled>Priorytet naprawy</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <div class="item">
+              <p>Dodatkowe informacje</p>
+              <textarea rows="3"></textarea>
+              Dodaj zdjęcie (opcjonalne)
+            </div>
+            <div class="form-group">
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+            </div>
+            
+              <div class="btn-block">
+                <button type="submit" href="/">Wyślij</button>
+              </div>
+          </form>
+          </div>
+</main>
+
+
+
+<div class="footer">Stopka.</div>
+</body>
+
+</html>
